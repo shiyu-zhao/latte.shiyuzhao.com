@@ -3034,14 +3034,24 @@ a {
 }
 
 .slide-nav-lower {
+  object-fit: fill;
   margin-top: 0;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 0;
   font-size: 7px;
 }
 
 .paragraph-7, .mask, .paragraph-8 {
   color: #fff;
+}
+
+.image-6 {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+.image-7, .image-8, .image-9, .image-10, .image-11, .image-12, .image-13, .image-14, .image-15, .image-16 {
+  object-fit: contain;
 }
 
 @media screen and (max-width: 991px) {
@@ -3342,6 +3352,10 @@ a {
 
   .left-arrow, .right-arrow {
     width: 15vw;
+  }
+
+  .slide-nav {
+    padding-bottom: 60px;
   }
 
   .number {
