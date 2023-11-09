@@ -26,5 +26,5 @@ echo "Modifications complete."
 # Publish
 rm -rf ./public/
 mkdir ./public/
-cp $FILE_PATH ./public/
+cp $FILE_PATH ./public/index.html
 cp -r $DIRECTORY ./public/$DIRECTORY
