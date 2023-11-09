@@ -31,3 +31,4 @@ rm -rf ./public/
 mkdir ./public/
 cp $FILE_PATH ./public/index.html
 cp -r $DIRECTORY ./public/$DIRECTORY
+cp latte_preview.jpg ./public/
