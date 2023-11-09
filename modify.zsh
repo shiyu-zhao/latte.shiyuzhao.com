@@ -9,6 +9,9 @@ sed -i '' 's|<title>Landing page template - Webflow HTML website template</title
 sed -i '' 's|href="https://latte-the-border-collie.webflow.io/|href="https://latte.shiyuzhao.com/|g' $FILE_PATH
 # Remove the <a> tag with class "w-webflow-badge" even if it is on multiple lines
 perl -i -0pe 's|<a class="w-webflow-badge".*?<\/a>||gs' $FILE_PATH
+echo "Modified: $FILE_PATH"
+echo "All applicable HTML files have been modified."
+
 
 # JS
 DIRECTORY="./LatteHomepage_files"
